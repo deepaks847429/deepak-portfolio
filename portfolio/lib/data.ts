@@ -7,7 +7,8 @@ export const profile = {
   email: "deepaks9631342845@gmail.com",
   github: "https://github.com/deepaks847429",
   linkedin: "https://www.linkedin.com/in/ambitioushustler/",
-  resumeUrl: "/deepak_kumar_resume.pdf",
+  // basePath is NOT auto-applied to raw <a href> links, so prefix it manually.
+  resumeUrl: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/deepak_kumar_resume.pdf`,
   location: "Open to international remote opportunities and relocation",
 };
 
