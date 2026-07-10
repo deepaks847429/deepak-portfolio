@@ -3,7 +3,7 @@ export const profile = {
   role: "Software Engineer",
   subtitle: "Full Stack Developer | Cloud & DevOps Engineer",
   tagline:
-    "Building scalable web platforms, backend systems, cloud infrastructure, and production-grade deployments with 3 years of real-world engineering experience.",
+    "Building scalable web platforms, backend systems, cloud infrastructure, and production-grade deployments with 3+ years of real-world engineering experience.",
   email: "deepaks9631342845@gmail.com",
   github: "https://github.com/deepaks847429",
   linkedin: "https://www.linkedin.com/in/ambitioushustler/",
@@ -14,7 +14,7 @@ export const profile = {
 
 export const heroStats = [
   { value: "3+", label: "Years Experience" },
-  { value: "2", label: "Production Domains" },
+  { value: "5", label: "Projects Delivered" },
   { value: "10+", label: "Cloud Services" },
   { value: "∞", label: "Problems Solved" },
 ];
@@ -116,6 +116,22 @@ export const projects = [
       "Managed deployments of healthcare applications using Kubernetes clusters with secure AWS infrastructure.",
     impact: "Faster releases, improved uptime, scalable deployments.",
     accent: "from-indigo-500/20 to-blue-500/10",
+  },
+  {
+    title: "GitOps CI/CD Delivery Platform",
+    stack: ["Terraform", "ArgoCD", "GitHub Actions", "Kubernetes"],
+    description:
+      "Designed a fully automated GitOps delivery platform with Terraform-provisioned infrastructure and ArgoCD-driven continuous deployment across dev, staging, and production environments.",
+    impact: "Cut deployment time ~70% and eliminated manual release steps.",
+    accent: "from-emerald-500/20 to-teal-500/10",
+  },
+  {
+    title: "Observability & Auto-Scaling Infrastructure",
+    stack: ["Prometheus", "Grafana", "EKS", "Helm"],
+    description:
+      "Built end-to-end monitoring, alerting, and horizontal auto-scaling for production Kubernetes workloads using Prometheus, Grafana dashboards, and custom metric-driven HPA policies.",
+    impact: "Reduced incident MTTR and absorbed 3x traffic spikes with zero downtime.",
+    accent: "from-amber-500/20 to-orange-500/10",
   },
   {
     title: "Full Stack Internal Dashboard",
