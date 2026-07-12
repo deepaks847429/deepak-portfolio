@@ -12,11 +12,11 @@ export default function WhyHireMe() {
       eyebrow="Why Hire Me"
       title={
         <>
-          A mid-level engineer with a{" "}
-          <span className="gradient-text">DevOps edge</span>.
+          A platform engineer who ships{" "}
+          <span className="gradient-text">reliability at scale</span>.
         </>
       }
-      description="Stronger experience than a typical 3-year developer — packaged for the work you actually need done."
+      description="Kubernetes, GitOps, security, and AIOps under one belt — packaged for the work your team actually needs done."
     >
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {reasons.map((r, idx) => (

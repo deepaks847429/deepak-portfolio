@@ -12,9 +12,9 @@ export default function Experience() {
       eyebrow="Experience"
       title={
         <>
-          3 years across{" "}
+          3 years running{" "}
           <span className="gradient-text">healthcare & fintech</span>{" "}
-          production systems.
+          infrastructure.
         </>
       }
     >

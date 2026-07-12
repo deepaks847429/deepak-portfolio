@@ -15,21 +15,21 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Deepak Kumar — Software Engineer | Full Stack + Cloud + DevOps",
+  title: "Deepak Kumar — Platform / DevOps / SRE Engineer | Cloud + DevSecOps + AIOps",
   description:
-    "Software Engineer with 3 years building scalable web platforms, backend systems, AWS infrastructure, and Kubernetes deployments. Open to international remote opportunities and relocation.",
+    "Platform / DevOps / SRE engineer with 3+ years running production Kubernetes on AWS — GitOps CI/CD, Terraform, DevSecOps, observability, and AI-driven incident auto-remediation. Open to international remote roles and relocation.",
   metadataBase: new URL("https://deepak-portfolio.vercel.app"),
   openGraph: {
-    title: "Deepak Kumar — Software Engineer",
+    title: "Deepak Kumar — Platform / DevOps / SRE Engineer",
     description:
-      "Full Stack + Cloud + DevOps + Scalable Backend Systems. 3 years of production engineering experience.",
+      "Kubernetes · GitOps CI/CD · Terraform · DevSecOps · Observability · AIOps. 3+ years of production infrastructure experience.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Deepak Kumar — Software Engineer",
+    title: "Deepak Kumar — Platform / DevOps / SRE Engineer",
     description:
-      "Full Stack + Cloud + DevOps + Scalable Backend Systems.",
+      "Kubernetes · GitOps · Terraform · DevSecOps · Observability · AIOps.",
   },
 };
 

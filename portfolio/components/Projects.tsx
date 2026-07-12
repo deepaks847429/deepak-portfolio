@@ -16,7 +16,7 @@ export default function Projects() {
           <span className="gradient-text">designed & shipped</span>.
         </>
       }
-      description="Production-grade work across backend logic, cloud infrastructure, and full-stack delivery."
+      description="Production-grade platform, DevSecOps, SRE, and AIOps work — cloud-native and built to scale."
     >
       <div className="grid gap-6 md:grid-cols-2">
         {projects.map((p, idx) => (

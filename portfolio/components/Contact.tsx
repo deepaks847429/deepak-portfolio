@@ -34,8 +34,8 @@ export default function Contact() {
               Reach out — I reply within a day.
             </h3>
             <p className="mt-3 max-w-md text-zinc-400">
-              Whether it&apos;s an engineering role, a freelance build, or
-              cloud / DevOps consulting — drop a line.
+              Whether it&apos;s a Platform, DevOps, SRE, DevSecOps, or AI
+              Engineering role — drop a line.
             </p>
             <a
               href={`mailto:${profile.email}`}

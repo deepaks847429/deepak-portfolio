@@ -46,8 +46,8 @@ export default function Hero() {
           Hi, I&apos;m{" "}
           <span className="gradient-text">Deepak Kumar.</span>
           <br />
-          <span className="text-zinc-400">A Software Engineer</span>{" "}
-          <span className="text-zinc-200">building production systems.</span>
+          <span className="text-zinc-400">Platform / DevOps / SRE Engineer</span>{" "}
+          <span className="text-zinc-200">building AI-driven cloud infrastructure.</span>
         </motion.h1>
 
         <motion.p
@@ -57,12 +57,13 @@ export default function Hero() {
           custom={2}
           className="mt-6 max-w-2xl text-base leading-relaxed text-zinc-400 md:text-lg"
         >
-          3 years of experience shipping full-stack products, backend
-          architecture, AWS infrastructure, and Kubernetes deployments. I
-          specialize in <span className="text-white">MERN</span>,{" "}
-          <span className="text-white">AWS</span>,{" "}
-          <span className="text-white">DevOps</span>, and{" "}
-          <span className="text-white">scalable product engineering</span>.
+          3+ years running production systems on{" "}
+          <span className="text-white">Kubernetes</span> across{" "}
+          <span className="text-white">AWS</span>. I build{" "}
+          <span className="text-white">GitOps CI/CD</span>,{" "}
+          <span className="text-white">DevSecOps pipelines</span>,{" "}
+          <span className="text-white">observability</span>, and{" "}
+          <span className="text-white">AI-driven incident auto-remediation</span>.
         </motion.p>
 
         <motion.div

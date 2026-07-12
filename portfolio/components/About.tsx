@@ -10,8 +10,8 @@ export default function About() {
       eyebrow="About"
       title={
         <>
-          Results-driven engineer across{" "}
-          <span className="gradient-text">full-stack, backend & cloud</span>.
+          Engineer across{" "}
+          <span className="gradient-text">platform, DevOps, SRE & AIOps</span>.
         </>
       }
     >
@@ -24,20 +24,24 @@ export default function About() {
           className="glass p-6 md:col-span-2"
         >
           <p className="text-base leading-relaxed text-zinc-300 md:text-lg">
-            I&apos;m a results-driven Software Engineer with experience across
-            full-stack development, backend architecture, cloud infrastructure,
-            and DevOps.
+            I&apos;m a Platform / DevOps / SRE engineer who designs secure,
+            self-healing cloud infrastructure — Kubernetes, GitOps delivery,
+            observability, and AI-driven operations.
           </p>
           <p className="mt-4 text-base leading-relaxed text-zinc-400 md:text-lg">
-            Over the last 3 years, I&apos;ve worked on production systems in{" "}
+            Over the last 3 years I&apos;ve run production systems in{" "}
             <span className="text-white">healthcare</span> and{" "}
-            <span className="text-white">prop trading</span> domains — handling
-            everything from feature development to end-to-end deployment
-            pipelines.
+            <span className="text-white">fintech</span> — provisioning
+            infrastructure with <span className="text-white">Terraform</span>,
+            shipping through <span className="text-white">CI/CD &amp; ArgoCD</span>,
+            hardening pipelines with <span className="text-white">DevSecOps</span>,
+            and carrying the pager.
           </p>
           <p className="mt-4 text-base leading-relaxed text-zinc-400 md:text-lg">
-            I enjoy solving real engineering problems involving scale,
-            automation, system reliability, and business logic.
+            Lately I&apos;m most excited about{" "}
+            <span className="text-white">AIOps</span> — using LLMs and agentic
+            workflows for root-cause analysis and safe incident
+            auto-remediation, so reliability scales without scaling headcount.
           </p>
         </motion.div>
 
@@ -53,7 +57,7 @@ export default function About() {
               Currently
             </div>
             <div className="mt-1 text-zinc-200">
-              Mid-Level Product Engineer with DevOps edge
+              Platform / DevOps / SRE Engineer
             </div>
           </div>
           <div>
@@ -69,7 +73,7 @@ export default function About() {
               Focus Areas
             </div>
             <div className="mt-1 text-zinc-200">
-              Scalable backend systems, cloud-native infra, automation
+              Kubernetes, GitOps, DevSecOps, observability, AIOps
             </div>
           </div>
         </motion.div>

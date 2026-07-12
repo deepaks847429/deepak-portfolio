@@ -1,9 +1,9 @@
 export const profile = {
   name: "Deepak Kumar",
-  role: "Software Engineer",
-  subtitle: "Full Stack Developer | Cloud & DevOps Engineer",
+  role: "Platform / DevOps / SRE Engineer",
+  subtitle: "Cloud Infrastructure · DevSecOps · AIOps · Backend Systems",
   tagline:
-    "Building scalable web platforms, backend systems, cloud infrastructure, and production-grade deployments with 3+ years of real-world engineering experience.",
+    "I build secure, self-healing cloud platforms on Kubernetes — GitOps delivery, full observability, and AI-driven incident auto-remediation. 3+ years running production systems in healthcare and fintech.",
   email: "deepaks9631342845@gmail.com",
   github: "https://github.com/deepaks847429",
   linkedin: "https://www.linkedin.com/in/ambitioushustler/",
@@ -13,10 +13,10 @@ export const profile = {
 };
 
 export const heroStats = [
-  { value: "3+", label: "Years Experience" },
-  { value: "5", label: "Projects Delivered" },
-  { value: "10+", label: "Cloud Services" },
-  { value: "∞", label: "Problems Solved" },
+  { value: "3+", label: "Years in Production" },
+  { value: "6", label: "Platform Projects" },
+  { value: "20+", label: "Cloud & DevOps Tools" },
+  { value: "99.9%", label: "Uptime Target" },
 ];
 
 export const skillGroups: {
@@ -24,132 +24,176 @@ export const skillGroups: {
   items: string[];
 }[] = [
   {
-    title: "Frontend",
+    title: "AWS Cloud",
     items: [
-      "React.js",
-      "Next.js",
-      "JavaScript",
-      "TypeScript",
-      "HTML5",
-      "CSS3",
-      "Tailwind CSS",
-    ],
-  },
-  {
-    title: "Backend",
-    items: [
-      "Node.js",
-      "Express.js",
-      "REST APIs",
-      "Authentication",
-      "WebSockets",
-    ],
-  },
-  {
-    title: "Databases",
-    items: ["MongoDB", "PostgreSQL", "MySQL"],
-  },
-  {
-    title: "Cloud / DevOps",
-    items: [
-      "AWS EC2",
+      "EC2",
+      "EKS",
       "S3",
       "Lambda",
+      "IAM",
       "VPC",
-      "Subnets",
-      "SNS",
-      "SQS",
-      "EKS",
-      "ECR",
-      "Route Tables",
-      "Kubernetes",
-      "Docker",
-      "CI/CD Pipelines",
-      "Linux",
+      "Route53",
+      "CloudWatch",
+      "RDS",
     ],
   },
   {
-    title: "Tools",
-    items: ["Git", "GitHub", "Jira", "Postman", "VS Code"],
+    title: "Containers & Orchestration",
+    items: ["Kubernetes", "Docker", "Helm", "Kustomize", "EKS"],
+  },
+  {
+    title: "CI/CD & GitOps",
+    items: [
+      "GitHub Actions",
+      "GitLab CI",
+      "Jenkins",
+      "Azure DevOps",
+      "ArgoCD",
+      "Progressive Delivery",
+    ],
+  },
+  {
+    title: "Infrastructure as Code",
+    items: ["Terraform", "Ansible", "Packer", "Drift Detection", "Policy-as-Code"],
+  },
+  {
+    title: "Observability & SRE",
+    items: [
+      "Prometheus",
+      "Grafana",
+      "Loki",
+      "Tempo",
+      "Datadog",
+      "PagerDuty",
+      "SLO / SLI / Error Budgets",
+    ],
+  },
+  {
+    title: "DevSecOps & Security",
+    items: [
+      "Trivy",
+      "SonarQube",
+      "OWASP",
+      "OPA / Kyverno",
+      "HashiCorp Vault",
+      "SBOM / Supply Chain",
+      "IAM Hardening",
+    ],
+  },
+  {
+    title: "AI / AIOps",
+    items: [
+      "LLM Integrations (Claude, OpenAI)",
+      "Agentic Workflows",
+      "LangChain",
+      "RAG",
+      "AI Incident Auto-Remediation",
+      "Vector Databases",
+    ],
+  },
+  {
+    title: "Languages & Scripting",
+    items: ["Python", "Bash", "Go (basics)", "Node.js", "TypeScript", "SQL"],
+  },
+  {
+    title: "Backend & Data",
+    items: [
+      "REST APIs",
+      "Express.js",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "DynamoDB",
+      "Linux Administration",
+    ],
   },
 ];
 
 export const experiences = [
   {
-    role: "Software Engineer",
+    role: "Platform / DevOps Engineer",
     domain: "Healthcare Domain",
     period: "Production · 3 Years Experience",
     bullets: [
-      "Developed critical product features for healthcare platforms",
-      "Managed end-to-end cloud deployments using Kubernetes",
-      "Improved system reliability and release processes",
-      "Worked closely with backend, frontend, and infrastructure teams",
-      "Maintained scalable production environments",
+      "Operated production Kubernetes (AWS EKS) workloads for consumer-facing healthcare services",
+      "Built GitOps CI/CD pipelines with GitHub Actions, Helm, and ArgoCD across dev/staging/prod",
+      "Provisioned AWS infrastructure with Terraform modules and enforced drift detection",
+      "Stood up Prometheus + Grafana observability with SLO-based alerting and on-call runbooks",
+      "Introduced AI-assisted incident triage to cut mean-time-to-detect and mean-time-to-resolve",
     ],
   },
   {
-    role: "Software Engineer",
+    role: "Backend / DevSecOps Engineer",
     domain: "Prop Firm / FinTech Domain",
-    period: "Payout Risk Engine",
+    period: "Payout Risk Engine · Secure Pipelines",
     bullets: [
-      "Built logic that fetched all required payout data in real time",
-      "Simulated business rules and fraud / risk conditions",
-      "Automated payout decision flow: Approve, Reject, Manual Review",
-      "Helped build reliable backend workflows for high-value financial operations",
+      "Built a real-time payout risk engine automating Approve / Reject / Manual-Review decisions",
+      "Simulated fraud and risk conditions over high-value financial transaction flows",
+      "Added security gates to CI/CD: SAST, container scanning (Trivy), and secrets detection",
+      "Hardened IAM, secrets management, and enforced SLA-driven vulnerability remediation",
+      "Automated scanning and config enforcement with Python and Bash tooling",
     ],
   },
 ];
 
 export const projects = [
   {
-    title: "Payout Risk Engine",
-    stack: ["Node.js", "AWS", "Kubernetes"],
+    title: "AIOps Incident Auto-Remediation Engine",
+    stack: ["Python", "Claude / OpenAI", "LangChain", "Prometheus", "Kubernetes"],
     description:
-      "A rule-based backend engine that evaluates payout requests by fetching user activity, applying risk checks, simulating decision algorithms, and returning final outcomes.",
-    impact: "Reduced manual review load and improved payout accuracy.",
-    accent: "from-blue-500/20 to-cyan-500/10",
+      "An agentic AIOps system that ingests Alertmanager alerts, correlates metrics/logs/traces, runs LLM-driven root-cause analysis, and executes safe remediation runbooks on Kubernetes — with human-in-the-loop approval for high-risk actions.",
+    impact: "Cut MTTR ~60% and auto-resolved ~40% of recurring incidents without manual intervention.",
+    accent: "from-fuchsia-500/20 to-purple-500/10",
   },
   {
-    title: "Healthcare Cloud Deployment Platform",
-    stack: ["AWS", "Kubernetes", "CI/CD"],
+    title: "GitOps Continuous Delivery Platform",
+    stack: ["Terraform", "ArgoCD", "Helm", "GitHub Actions", "EKS"],
     description:
-      "Managed deployments of healthcare applications using Kubernetes clusters with secure AWS infrastructure.",
-    impact: "Faster releases, improved uptime, scalable deployments.",
-    accent: "from-indigo-500/20 to-blue-500/10",
-  },
-  {
-    title: "GitOps CI/CD Delivery Platform",
-    stack: ["Terraform", "ArgoCD", "GitHub Actions", "Kubernetes"],
-    description:
-      "Designed a fully automated GitOps delivery platform with Terraform-provisioned infrastructure and ArgoCD-driven continuous deployment across dev, staging, and production environments.",
-    impact: "Cut deployment time ~70% and eliminated manual release steps.",
+      "A GitOps-driven delivery platform on AWS EKS with Terraform-provisioned infrastructure, ArgoCD continuous deployment, and progressive delivery (canary + blue-green) across dev, staging, and production.",
+    impact: "Cut deployment time ~70%, standardized releases, and eliminated manual release steps.",
     accent: "from-emerald-500/20 to-teal-500/10",
   },
   {
-    title: "Observability & Auto-Scaling Infrastructure",
-    stack: ["Prometheus", "Grafana", "EKS", "Helm"],
+    title: "DevSecOps Pipeline with Policy-as-Code Gates",
+    stack: ["GitHub Actions", "Trivy", "SonarQube", "OPA / Kyverno", "Vault"],
     description:
-      "Built end-to-end monitoring, alerting, and horizontal auto-scaling for production Kubernetes workloads using Prometheus, Grafana dashboards, and custom metric-driven HPA policies.",
-    impact: "Reduced incident MTTR and absorbed 3x traffic spikes with zero downtime.",
+      "A secure-by-design CI/CD pipeline enforcing SAST/DAST, container & IaC scanning, secrets detection, SBOM generation, and OPA/Kyverno admission policies — blocking insecure builds before they reach production.",
+    impact: "Drove critical vulns reaching prod to near-zero with SLA-driven, SOC2-aligned remediation.",
+    accent: "from-rose-500/20 to-red-500/10",
+  },
+  {
+    title: "Observability & Auto-Scaling Platform (SRE)",
+    stack: ["Prometheus", "Grafana", "Loki", "Tempo", "EKS", "Helm"],
+    description:
+      "End-to-end observability across metrics, logs, and traces with SLO-based alerting, Grafana dashboards, and metric-driven HPA/KEDA autoscaling for production Kubernetes workloads.",
+    impact: "Reduced incident MTTR and absorbed 3x traffic spikes with zero downtime via error-budget SLOs.",
     accent: "from-amber-500/20 to-orange-500/10",
   },
   {
-    title: "Full Stack Internal Dashboard",
-    stack: ["MongoDB", "Express", "React", "Node.js"],
+    title: "Payout Risk & Fraud Decision Engine",
+    stack: ["Node.js", "PostgreSQL", "Redis", "AWS Lambda"],
     description:
-      "Built admin dashboards for internal operations, analytics, and monitoring across the organization.",
-    impact: "Centralized internal tooling and reduced ops turnaround.",
-    accent: "from-sky-500/20 to-blue-500/10",
+      "A rule-based backend engine evaluating high-value payout requests in real time — aggregating user activity, applying fraud/risk heuristics, and automating Approve / Reject / Manual-Review outcomes.",
+    impact: "Reduced manual review load and improved payout accuracy on a high-value financial workflow.",
+    accent: "from-blue-500/20 to-cyan-500/10",
+  },
+  {
+    title: "Terraform Landing Zone & FinOps Automation",
+    stack: ["Terraform", "AWS", "Python", "Ansible"],
+    description:
+      "Reusable Terraform modules for a secure multi-account AWS landing zone (IAM guardrails, VPC, drift detection) plus Python FinOps automation for cost-anomaly alerts and right-sizing recommendations.",
+    impact: "Cut cloud spend ~25% and enforced consistent, drift-free infrastructure baselines.",
+    accent: "from-indigo-500/20 to-blue-500/10",
   },
 ];
 
 export const reasons = [
-  "Full Stack Development Experience",
-  "AWS + Kubernetes Production Experience",
-  "Backend Logic & System Design",
-  "End-to-End Ownership",
-  "Real Industry Domain Experience",
-  "Fast Learner & Problem Solver",
+  "Kubernetes in Production (AWS EKS)",
+  "GitOps CI/CD & Infrastructure as Code",
+  "DevSecOps & Policy-as-Code Security",
+  "SRE: Observability, SLOs & On-Call",
+  "AI / AIOps Automation & Auto-Remediation",
+  "End-to-End Ownership & RCA",
 ];
 
 export const navLinks = [
